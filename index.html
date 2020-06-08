@@ -4,17 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Assets/icons/JavaScript.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./Style/reset.css">
+    <link rel="stylesheet" href="./CSS/style.min.css">
     <title>Vanilla JavaScript</title>
 </head>
 
 <body>
     <header>
-        <h1>Vanilla JavaScript</h1>
+        <h1><a href="./index.html">Vanilla JavaScript</a></h1>
         <nav>
             <ul>
-                <li><a href="./index.html">Home</a></li>
+                <li><a href="./index.html" class="selected">Home</a></li>
                 <li><a href="./Pages/GetStarted/index.html">Get Started</a></li>
-                <li><a href="./Pages/SuperPowers/index.html">Super-Powers</a></li>
+                <li><a href="./Pages/NinjaPowers/index.html">Ninja Powers</a></li>
                 <li><a href="./Pages/Settings/index.html">Settings</a></li>
                 <li><a href="./Pages/Community/index.html">Community</a></li>
             </ul>
@@ -22,8 +25,33 @@
     </header>
 
     <main>
+        <div>
+            <h2>Get Started</h2>
+            <p>Start in pure JavaScript. You can do all basically do you want!</p>
+            <button onclick="alert('Welcome to JavaScript');">Hello</button>
+            <a href="./Pages/GetStarted/index.html">Get Started</a>
+        </div>
 
+        <div>
+            <h2>Ninja Powers</h2>
+            <p>Incredible Programming Powers of JS you probably don't know.</p>
+            <button id="MagicJS">Magic</button>
+            <a href="./Pages/NinjaPowers/index.html">Ninja Powers</a>
+        </div>
+
+        <div>
+            <h2>Settings</h2>
+            <p>Website customization.</p>
+            <button id="btnBackground">Scale</button>
+            <a href="./Pages/Settings/index.html">Settings</a>
+        </div>
     </main>
+
+    <footer>
+        <p>😎 JavaScript it's fantastically amazing! 💛</p>
+    </footer>
+
+    <script src="./JS/animation.js"></script>
 </body>
 
 </html>

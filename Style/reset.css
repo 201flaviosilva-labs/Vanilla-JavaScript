@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto 1fr auto;
+  gap: 10px 10px;
+  grid-template-areas:
+    "Header"
+    "Main"
+    "Footer";
+}
+
+ul li {
+  list-style: none;
+}
+
+button,
+input,
+textarea,
+a {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+  resize: vertical;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+i {
+  font-style: normal;
+}
+
+/* NavBar */
+
+header {
+  grid-area: "Header";
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: gold;
+}
+
+header h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li a {
+  margin: 0 2px;
+  padding: 6px 10px;
+  border: 1px solid black;
+  border-radius: 2px;
+  transition: 0.5s;
+}
+
+header nav ul li a.selected {
+  background-color: gray;
+  color: yellow;
+}
+
+header nav ul li a:hover {
+  background-color: black;
+  color: white;
+}
+
+main {
+  grid-area: "Main";
+}
+
+footer {
+  grid-area: "Footer";
+  display: flex;
+  justify-content: center;
+}
