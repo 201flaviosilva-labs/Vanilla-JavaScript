@@ -5,3 +5,36 @@ main {
   grid-column-gap: 10px;
   grid-row-gap: 10px;
 }
+
+main > * {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid gold;
+  box-shadow: 2px 2px gold;
+}
+
+main > * button {
+  padding: 6px 8px;
+  border: 1px solid black;
+  border-radius: 2px;
+  background-color: white;
+}
+
+main > * a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main > * a::after {
+  content: url(../Assets/icons/arrow-right.svg);
+}
+
+.bolas {
+  position: fixed;
+  top: 0;
+  border: 1px solid black;
+  border-radius: 50%;
+}

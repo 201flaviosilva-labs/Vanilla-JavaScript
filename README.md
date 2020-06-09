@@ -1,7 +1,7 @@
 # VanillaJavaScript
- Vanilla JavaScript, the world's easiest JavaScript framework!
 
+Vanilla JavaScript, the world's easiest JavaScript framework!
 
 - [Vanilla JavaScript](https://vanillajavascript.netlify.app/)
-- [Repositório](https://github.com/201flaviosilva/VanillaJavaScript)
-- [Projeto](https://github.com/201flaviosilva/VanillaJavaScript/projects)
+- [Repository](https://github.com/201flaviosilva/VanillaJavaScript)
+- [Project](https://github.com/201flaviosilva/VanillaJavaScript/projects)
