@@ -28,7 +28,6 @@ document.getElementById("btnBackground").addEventListener("click", () => {
       .map(function (tag) {
         tag.style.color = "white";
       });
-    isWhite = false;
   } else {
     body.style.background = "white";
     Array.prototype.slice
@@ -40,8 +39,8 @@ document.getElementById("btnBackground").addEventListener("click", () => {
       .map(function (tag) {
         tag.style.color = "black";
       });
-    isWhite = true;
   }
+  isWhite = !isWhite;
 });
 
 // Ball Magic
