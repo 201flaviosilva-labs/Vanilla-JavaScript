@@ -1,3 +1,5 @@
+document.designMode = "on";
+
 let r = 0;
 let isWhite = true;
 const body = document.querySelector("body");
