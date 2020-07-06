@@ -1,4 +1,4 @@
-document.designMode = "on";
+// document.designMode = "on";
 
 let r = 0;
 let isWhite = true;
