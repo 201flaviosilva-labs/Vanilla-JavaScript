@@ -17,7 +17,6 @@ document.getElementById("MagicJS").addEventListener("click", () => {
     });
 });
 
-// TODO: Change LocalStorage
 document.getElementById("btnBackground").addEventListener("click", () => {
   if (isWhite) {
     body.style.background = "black";
@@ -45,11 +44,11 @@ document.getElementById("btnBackground").addEventListener("click", () => {
   isWhite = !isWhite;
 });
 
-// Ball Magic
-criarBol();
-body.addEventListener("click", () => criarBol());
+// Magic Ball
+createBall();
+body.addEventListener("click", () => createBall());
 
-function funcMudarCor() {
+function changeColor() {
   const colorChange = [];
   for (let i = 0; i < 3; i++) {
     colorChange[i] = Math.floor(Math.random() * 251);
@@ -57,13 +56,13 @@ function funcMudarCor() {
   return colorChange;
 }
 
-function criarBol() {
-  const colorChange = funcMudarCor();
+function createBall() {
+  const colorChange = changeColor();
   let rangeBall = Math.floor(Math.random() * window.innerWidth - 50);
   rangeBall = rangeBall < 50 ? 50 : rangeBall;
   const sizeBall = Math.floor(Math.random() * 50 + 1) + "px";
   const newBall = document.createElement("div");
-  newBall.classList.add("bolas");
+  newBall.classList.add("ball");
   newBall.style.left = rangeBall + "px";
   newBall.style.width = sizeBall;
   newBall.style.height = sizeBall;
