@@ -8,6 +8,8 @@
 
 html,
 body {
+  width: 100vw;
+  height: 100vh;
   overflow-x: hidden;
 }
 
@@ -35,10 +37,6 @@ a {
   outline: none;
 }
 
-a {
-  text-decoration: none;
-}
-
 textarea {
   overflow: auto;
   vertical-align: top;
@@ -46,8 +44,13 @@ textarea {
 }
 
 button,
-a {
+a,
+label {
   cursor: pointer;
+}
+
+a {
+  text-decoration: none;
 }
 
 i {
@@ -85,12 +88,15 @@ header nav ul li a {
 header nav ul li a.selected {
   background-color: gray;
   color: yellow;
+  font-weight: bold;
 }
 
 header nav ul li a:hover {
   background-color: black;
   color: white;
 }
+
+/* Others */
 
 main {
   grid-area: "Main";
@@ -100,5 +106,7 @@ footer {
   grid-area: "Footer";
   display: flex;
   justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
   background-color: gold;
 }
