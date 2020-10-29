@@ -1,0 +1,18 @@
+{
+  "name": "VanillaJavaScript",
+  "version": "0.0.1",
+  "description": "Vanilla JavaScript, the world's easiest JavaScript framework!",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/201flaviosilva/VanillaJavaScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/201flaviosilva/VanillaJavaScript/issues"
+  },
+  "homepage": "https://vanillajavascript.netlify.app/"
+}
