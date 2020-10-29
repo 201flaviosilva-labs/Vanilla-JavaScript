@@ -1,5 +1,5 @@
 ul.Geral {
-  padding: 10px;
+  padding: 20px 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 10px;
@@ -25,4 +25,9 @@ ul.Geral li h2 {
 ul.Geral li ul li {
   margin-bottom: 8px;
   border-bottom: 1px solid black;
+  transition: 0.25s;
+}
+
+ul.Geral li ul li:hover {
+  border-bottom: 2px solid gray;
 }
