@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../Style/reset.css">
+    <link rel="stylesheet" href="./style/style.min.css">
     <title>Vanilla JavaScript</title>
 </head>
 
@@ -23,8 +24,33 @@
     </header>
 
     <main>
+        <h1>Get Started</h1>
+
+        <div class="container">
+
+            <div class="Project CounterTimer">
+                <h2>Counter Timer</h2>
+                <div class="CounterTimerContainer">
+                    <p id="TimerCounterTimer">00 : 00 : 00</p>
+                    <div>
+                        <button id="StartCounterTimer">Start</button>
+                        <button id="ResetCounterTimer">Reset</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Project TodayTimer">
+                <h2>Today Timer</h2>
+                <p id="Day">01/01/2020</p>
+                <p id="hour">00:00:00</p>
+            </div>
+
+        </div>
 
     </main>
+
+    <script src="./script/CounterTimer.js"></script>
+
 </body>
 
 </html>
