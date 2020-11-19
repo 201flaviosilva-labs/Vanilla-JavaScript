@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../Style/reset.css">
     <link rel="stylesheet" href="./style/style.min.css">
+    <link rel="stylesheet" href="./style/CounterTimer/style.min.css">
+    <link rel="stylesheet" href="./style/TodayTimer/style.min.css">
+    <link rel="stylesheet" href="./style/ToDoList/style.min.css">
     <title>Vanilla JavaScript</title>
 </head>
 
@@ -28,7 +31,7 @@
 
         <div class="container">
 
-            <div class="Project CounterTimer">
+            <div class="Project" id="CounterTimer">
                 <h2>Counter Timer</h2>
                 <div class="CounterTimerContainer">
                     <p id="TimerCounterTimer">00 : 00 : 00</p>
@@ -39,10 +42,38 @@
                 </div>
             </div>
 
-            <div class="Project TodayTimer">
+            <div class="Project" id="TodayTimer">
                 <h2>Today Timer</h2>
-                <p id="Day">01/01/2020</p>
-                <p id="hour">00:00:00</p>
+                <p>Day: <span id="DayTodayTimer">01/01/2020</span></p>
+                <p>Month: <span id="MonthTodayTimer">January</span></p>
+                <p>Week: <span id="WeekTodayTimer">Monday</span></p>
+                <p>Time: <span id="HourTodayTimer">00:00:00</span></p>
+            </div>
+
+            <div class="Project" id="Counter">
+                <h2>Counter</h2>
+                <div class="CounterContainer">
+                    <p id="CounterCounter">0</p>
+                    <div>
+                        <button id="AddCounter">+1</button>
+                        <button id="RemoveCounter">-1</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Project" id="ToDoList">
+                <h2>To Do List</h2>
+                <div class="ToDoListContainer">
+                    <form>
+                        <input type="text" maxlength="20" placeholder="To Do List" id="InputToDoList">
+                        <button id="SubmitToDoList">Submit</button>
+                    </form>
+                    <ul id="ListToDoList">
+                        <li>asbdjabskd <button>asda</button></li>
+                        <li>asbdjabskd <button>asda</button></li>
+                        <li>asbdjabskd <button>asda</button></li>
+                    </ul>
+                </div>
             </div>
 
         </div>
@@ -50,6 +81,9 @@
     </main>
 
     <script src="./script/CounterTimer.js"></script>
+    <script src="./script/TodayTimer.js"></script>
+    <script src="./script/Counter.js"></script>
+    <script src="./script/ToDoList.js"></script>
 
 </body>
 
