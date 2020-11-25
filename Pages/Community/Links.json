@@ -1,0 +1,232 @@
+{
+  "Documentation": [
+    {
+      "name": "W3Schools",
+      "href": "https://www.w3schools.com/"
+    },
+    {
+      "name": "Developer.Mozilla",
+      "href": "https://developer.mozilla.org/"
+    },
+    {
+      "name": "Solo Learn",
+      "href": "https://www.sololearn.com/"
+    },
+    {
+      "name": "o7planning",
+      "href": "https://o7planning.org/"
+    },
+    {
+      "name": "Free Code Camp",
+      "href": "https://www.freecodecamp.org/"
+    },
+    {
+      "name": "Java2s",
+      "href": "http://www.java2s.com/"
+    },
+    {
+      "name": "Javatpoint",
+      "href": "https://www.javatpoint.com/"
+    },
+    {
+      "name": "tutorialspoint",
+      "href": "https://www.tutorialspoint.com/index.htm"
+    },
+    {
+      "name": "geeksforgeeks",
+      "href": "https://www.geeksforgeeks.org/"
+    },
+    {
+      "name": "javascript.info",
+      "href": "https://javascript.info/"
+    },
+    {
+      "name": "Can I Use",
+      "href": "https://caniuse.com/"
+    },
+    {
+      "name": "Eloquent JavaScript",
+      "href": "https://eloquentjavascript.net/"
+    },
+    {
+      "name": "Impatient JavaScript",
+      "href": "https://exploringjs.com/impatient-js/toc.html"
+    },
+    {
+      "name": "HTML Reference (HTML)",
+      "href": "https://htmlreference.io/"
+    },
+    {
+      "name": "Css-Tricks (CSS)",
+      "href": "https://css-tricks.com/"
+    },
+    {
+      "name": "Learn Layout (CSS)",
+      "href": "http://learnlayout.com/no-layout.html"
+    },
+    {
+      "name": "Learn Git Branching (Git)",
+      "href": "https://learngitbranching.js.org/"
+    }
+  ],
+  "Videos": [
+    {
+      "name": "Youtube",
+      "href": "https://www.youtube.com"
+    },
+    {
+      "name": "FreeCodeCamp.org",
+      "href": "https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ"
+    },
+    {
+      "name": "Teach Your Self Code",
+      "href": "https://teachyourselfcode.io/"
+    },
+    {
+      "name": "Udemy",
+      "href": "https://www.udemy.com/"
+    },
+    {
+      "name": "Scrimba",
+      "href": "https://scrimba.com/"
+    }
+  ],
+  "Courses": [
+    {
+      "name": "Solo Learn",
+      "href": "https://www.sololearn.com/"
+    },
+    {
+      "name": "Programming Hub",
+      "href": "https://programminghub.io/"
+    },
+    {
+      "name": "Udemy",
+      "href": "https://www.udemy.com/"
+    }
+  ],
+  "Chalanges": [
+    {
+      "name": "Advent of Code",
+      "href": "https://adventofcode.com/"
+    },
+    {
+      "name": "Code Combat",
+      "href": "https://codecombat.com/play/dungeon"
+    },
+    {
+      "name": "Exercism.io",
+      "href": "https://exercism.io"
+    },
+    {
+      "name": "Codin Game",
+      "href": "https://www.codingame.com/start"
+    },
+    {
+      "name": "Checkio",
+      "href": "https://js.checkio.org/"
+    },
+    {
+      "name": "Code Wars",
+      "href": "https://www.codewars.com/"
+    },
+    {
+      "name": "Code Chef",
+      "href": "https://www.codechef.com/"
+    },
+    {
+      "name": "Hacker Rank",
+      "href": "https://www.hackerrank.com/"
+    },
+    {
+      "name": "Hacker Earth",
+      "href": "https://www.hackerearth.com"
+    },
+    {
+      "name": "Codein The Dark (HTML && CSS)",
+      "href": "http://codeinthedark.com/"
+    },
+    {
+      "name": "Codepip",
+      "href": "https://codepip.com/"
+    }
+  ],
+  "Deploy": [
+    {
+      "name": "Netlify",
+      "href": "https://app.netlify.com/"
+    },
+    {
+      "name": "Vercel",
+      "href": "https://vercel.com"
+    },
+    {
+      "name": "Heroku",
+      "href": "https://www.heroku.com/"
+    },
+    {
+      "name": "Infinity",
+      "href": "https://infinityfree.net/"
+    },
+    {
+      "name": "000 Web Host",
+      "href": "https://pt.000webhost.com/"
+    },
+    {
+      "name": "Fast.io",
+      "href": "https://fast.io/"
+    }
+  ],
+  "Templates": [
+    {
+      "name": "HTML-CSS-JS",
+      "href": "https://html-css-js.com"
+    },
+    {
+      "name": "Regexr",
+      "href": "https://regexr.com/"
+    },
+    {
+      "name": "Grid.Layoutit (CSS)",
+      "href": "https://grid.layoutit.com/"
+    },
+    {
+      "name": "CSS Grid Generator (CSS)",
+      "href": "https://cssgrid-generator.netlify.app/"
+    },
+    {
+      "name": "Dood Lenerd (CSS)",
+      "href": "http://doodlenerd.com/"
+    },
+    {
+      "name": "Animista (CSS)",
+      "href": "https://animista.net/"
+    }
+  ],
+  "Design": [
+    {
+      "name": "Feather Icons (Icons)",
+      "href": "https://feathericons.com/"
+    },
+    {
+      "name": "Eva Icons (Icons)",
+      "href": "https://akveo.github.io/eva-icons"
+    },
+    {
+      "name": "Font Awesome (Icons)",
+      "href": "https://fontawesome.com"
+    },
+    {
+      "name": "Google Fonts (Fonts)",
+      "href": "https://fonts.google.com/"
+    },
+    {
+      "name": "Coolors (Colors)",
+      "href": "https://coolors.co/"
+    },
+    {
+      "name": "Figma (Prototype)",
+      "href": "https://www.figma.com/"
+    }
+  ]
+}

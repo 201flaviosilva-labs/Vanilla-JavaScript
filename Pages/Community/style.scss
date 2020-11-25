@@ -24,6 +24,16 @@ ul.Geral {
         &:hover {
           border-bottom: 2px solid gray;
         }
+        a {
+          width: 100%;
+          height: 100%;
+          text-align: center;
+          &:hover {
+            font-weight: bold;
+            background-color: black;
+            color: yellow;
+          }
+        }
       }
     }
   }
