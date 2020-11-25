@@ -17,6 +17,7 @@ html body main div.container div.Project {
   box-shadow: 0 0 10px yellow;
   border-radius: 4px;
   background-color: rgba(255, 255, 0, 0.05);
+  overflow: hidden;
 }
 
 html body main div.container div.Project h2 {

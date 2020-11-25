@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./style/CounterTimer/style.min.css">
     <link rel="stylesheet" href="./style/TodayTimer/style.min.css">
     <link rel="stylesheet" href="./style/ToDoList/style.min.css">
+    <link rel="stylesheet" href="./style/RandomPassWord/style.min.css">
     <title>Vanilla JavaScript</title>
 </head>
 
@@ -73,6 +74,32 @@
                 </div>
             </div>
 
+            <div class="Project" id="RandomPassWord">
+                <h2>Random Pass Word</h2>
+                <div class="PassWordContainer">
+
+                    <p id="OutputPassWord">a0b1c2d3e4f5g6</p>
+
+                    <div>
+                        <label for="SmallLettersPassWord"><input type="checkbox" name="Small Letters"
+                                id="SmallLettersPassWord" checked="checked">Small Letters</label>
+
+                        <label for="CapitalLettersPassWord"><input type="checkbox" name="Capital Letters"
+                                id="CapitalLettersPassWord" checked="checked">Capital Letters</label>
+
+                        <label for="NumbersPassWord"><input type="checkbox" name="Numbers" id="NumbersPassWord"
+                                checked="checked">Numbers</label>
+
+                        <label for="SymbolsPassWord"><input type="checkbox" name="Symbols" id="SymbolsPassWord"
+                                checked="checked">Symbols</label>
+
+                    </div>
+
+                    <button id="GeneratePassWord">Generate</button>
+
+                </div>
+            </div>
+
         </div>
 
     </main>
@@ -81,6 +108,7 @@
     <script src="./script/TodayTimer.js"></script>
     <script src="./script/Counter.js"></script>
     <script src="./script/ToDoList.js"></script>
+    <script src="./script/RandomPassWord.js"></script>
 
 </body>
 

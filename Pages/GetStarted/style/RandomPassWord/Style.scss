@@ -1,0 +1,49 @@
+div {
+  &.Project {
+    &#RandomPassWord {
+      div.PassWordContainer {
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        p {
+          font-size: 25px;
+          font-weight: bold;
+          text-align: center;
+          border: 1px solid gray;
+          border-radius: 4px;
+          box-shadow: 1px 1px gray;
+        }
+        div {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 2px;
+          label {
+            display: flex;
+            align-items: center;
+            margin-top: 4px;
+            padding: 2px 4px;
+            border: 1px solid gray;
+            box-shadow: 0 0 10px gray;
+            input {
+              margin-right: 4px;
+            }
+          }
+        }
+        button {
+          background-color: white;
+          font-size: 20px;
+          box-shadow: 2px 2px 1px gray;
+          border-radius: 6px;
+          border: 1px solid gray;
+          height: 40px;
+          transition: 0.5s;
+          &:active {
+            transform: translate(1px, 1px);
+            box-shadow: none;
+          }
+        }
+      }
+    }
+  }
+}
