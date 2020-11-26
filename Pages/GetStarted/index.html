@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./style/TodayTimer/style.min.css">
     <link rel="stylesheet" href="./style/ToDoList/style.min.css">
     <link rel="stylesheet" href="./style/RandomPassWord/style.min.css">
+    <link rel="stylesheet" href="./style/Calculator/style.min.css">
     <title>Vanilla JavaScript</title>
 </head>
 
@@ -29,6 +30,8 @@
 
     <main>
         <h1>Get Started</h1>
+
+        <p>Just a simple projects :)</p>
 
         <div class="container">
 
@@ -77,26 +80,48 @@
             <div class="Project" id="RandomPassWord">
                 <h2>Random Pass Word</h2>
                 <div class="PassWordContainer">
-
                     <p id="OutputPassWord">a0b1c2d3e4f5g6</p>
-
                     <div>
                         <label for="SmallLettersPassWord"><input type="checkbox" name="Small Letters"
                                 id="SmallLettersPassWord" checked="checked">Small Letters</label>
-
                         <label for="CapitalLettersPassWord"><input type="checkbox" name="Capital Letters"
                                 id="CapitalLettersPassWord" checked="checked">Capital Letters</label>
-
                         <label for="NumbersPassWord"><input type="checkbox" name="Numbers" id="NumbersPassWord"
                                 checked="checked">Numbers</label>
-
                         <label for="SymbolsPassWord"><input type="checkbox" name="Symbols" id="SymbolsPassWord"
                                 checked="checked">Symbols</label>
-
                     </div>
-
                     <button id="GeneratePassWord">Generate</button>
+                </div>
+            </div>
 
+            <div class="Project" id="Calculator">
+                <h2>Calculator</h2>
+                <div class="CalculatorContainer">
+                    <p id="CalculatorDisplayResult">0</p>
+                    <div class="CalculatorKeys">
+                        <button id="CalculatorKey7">7</button>
+                        <button id="CalculatorKey8">8</button>
+                        <button id="CalculatorKey9">9</button>
+                        <button id="CalculatorKeyA">+</button>
+
+                        <button id="CalculatorKey4">4</button>
+                        <button id="CalculatorKey5">5</button>
+                        <button id="CalculatorKey6">6</button>
+                        <button id="CalculatorKeyS">-</button>
+
+                        <button id="CalculatorKey1">1</button>
+                        <button id="CalculatorKey2">2</button>
+                        <button id="CalculatorKey3">3</button>
+                        <button id="CalculatorKeyM">*</button>
+
+                        <button id="CalculatorKey0">0</button>
+                        <button id="CalculatorKeyF">.</button>
+                        <button id="CalculatorKeyC">C</button>
+                        <button id="CalculatorKeyD">÷</button>
+
+                        <button id="CalculatorKeyR">=</button>
+                    </div>
                 </div>
             </div>
 
@@ -109,6 +134,7 @@
     <script src="./script/Counter.js"></script>
     <script src="./script/ToDoList.js"></script>
     <script src="./script/RandomPassWord.js"></script>
+    <script src="./script/Calculator.js"></script>
 
 </body>
 

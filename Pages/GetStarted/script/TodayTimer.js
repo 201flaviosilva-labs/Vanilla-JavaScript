@@ -7,4 +7,4 @@ setInterval(() => {
 	document.getElementById("MonthTodayTimer").innerHTML = monthNames[date.getMonth()];
 	document.getElementById("WeekTodayTimer").innerHTML = weekDays[date.getDay() - 1];
 	document.getElementById("HourTodayTimer").innerHTML = date.toLocaleTimeString();
-}, 1);
+}, 500);

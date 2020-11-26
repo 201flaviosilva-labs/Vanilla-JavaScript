@@ -1,0 +1,30 @@
+div.Project#Calculator div.CalculatorContainer {
+  height: 250px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+div.Project#Calculator div.CalculatorContainer p#CalculatorDisplayResult {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  overflow-x: auto;
+  border-bottom: 1px solid black;
+}
+
+div.Project#Calculator div.CalculatorContainer div.CalculatorKeys {
+  height: 90%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 5px;
+  padding: 5px;
+}
+
+div.Project#Calculator div.CalculatorContainer div.CalculatorKeys button {
+  font-size: 20px;
+}
+
+div.Project#Calculator div.CalculatorContainer div.CalculatorKeys button:last-child {
+  grid-area: 5 / 2 / 6 / 4;
+}

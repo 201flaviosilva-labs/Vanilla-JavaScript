@@ -1,4 +1,5 @@
-html body main h1 {
+html body main h1,
+html body main p {
   text-align: center;
 }
 
