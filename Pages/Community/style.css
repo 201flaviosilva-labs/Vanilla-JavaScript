@@ -8,7 +8,8 @@ ul.Geral {
 
 ul.Geral > li {
   border-radius: 2px;
-  background: linear-gradient(to bottom right, gold, yellow);
+  background: gray;
+  border: 1px solid black;
 }
 
 ul.Geral li {
@@ -20,6 +21,7 @@ ul.Geral li {
 
 ul.Geral li h2 {
   margin-bottom: 10px;
+  color: white;
 }
 
 ul.Geral li ul li {
@@ -28,14 +30,12 @@ ul.Geral li ul li {
   transition: 0.25s;
 }
 
-ul.Geral li ul li:hover {
-  border-bottom: 2px solid gray;
-}
-
 ul.Geral li ul li a {
   width: 100%;
   height: 100%;
   text-align: center;
+  color: white;
+  transition: 0.25s;
 }
 
 ul.Geral li ul li a:hover {

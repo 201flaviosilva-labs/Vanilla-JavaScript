@@ -6,7 +6,8 @@ ul.Geral {
   grid-row-gap: 10px;
   & > li {
     border-radius: 2px;
-    background: linear-gradient(to bottom right, gold, yellow);
+    background: gray;
+    border: 1px solid black;
   }
   li {
     display: flex;
@@ -15,19 +16,19 @@ ul.Geral {
     justify-content: center;
     h2 {
       margin-bottom: 10px;
+      color: white;
     }
     ul {
       li {
         margin-bottom: 8px;
         border-bottom: 1px solid black;
         transition: 0.25s;
-        &:hover {
-          border-bottom: 2px solid gray;
-        }
         a {
           width: 100%;
           height: 100%;
           text-align: center;
+          color: white;
+          transition: 0.25s;
           &:hover {
             font-weight: bold;
             background-color: black;
