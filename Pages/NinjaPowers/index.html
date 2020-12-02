@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../Style/reset.css">
+    <link rel="stylesheet" href="../../Style/Code.css">
+    <link rel="stylesheet" href="./style/style.min.css">
+    <link rel="stylesheet" href="./style/RotatePage/Style.min.css">
+    <link rel="stylesheet" href="./style/DesignMode/Style.min.css">
     <title>Vanilla JavaScript</title>
 </head>
 
@@ -25,10 +29,29 @@
     <main>
         <h1>Ninja Powers</h1>
         <p>Some ninja scripts really amazing or not!</p>
-        <h2>Ninja</h2>
 
         <h2>Funny Hacks</h2>
+
+        <div class="container">
+            <div class="Powers" id="RotatePage">
+                <h3>Rotate Page</h3>
+                <button id="RotatePageBtn">Rotate</button>
+                <button id="ResetPage">Reset</button>
+            </div>
+
+            <div class="Powers" id="DesignMode">
+                <h3>Design Mode</h3>
+                <label class="switch">
+                    <input type="checkbox" id="DesignModeInput">
+                    <span class="slider"></span>
+                </label>
+                <p>So much to write something on any side of the page with the switch on.</p>
+            </div>
+        </div>
     </main>
+
+    <script src="./Hacks/RotatePage.js"></script>
+    <script src="./Hacks/DesignMode.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,31 @@
+div.Powers#RotatePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+div.Powers#RotatePage button {
+  padding: 4px 8px;
+  border: 1px solid black;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+div.Powers#RotatePage button:nth-child(2) {
+  background-color: lightsalmon;
+}
+
+div.Powers#RotatePage button:nth-child(2):active {
+  transform: rotateZ(89deg);
+  background-color: red;
+}
+
+div.Powers#RotatePage button:nth-child(3) {
+  background-color: lightgreen;
+}
+
+div.Powers#RotatePage button:nth-child(3):active {
+  background-color: green;
+}
