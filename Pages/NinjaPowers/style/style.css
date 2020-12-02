@@ -12,6 +12,18 @@ html body main div.container {
   padding: 10px;
 }
 
+@media only screen and (max-width: 950px) {
+  html body main div.container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  html body main div.container {
+    grid-template-columns: 1fr;
+  }
+}
+
 html body main div.container div.Powers {
   height: 150px;
   padding: 4px;

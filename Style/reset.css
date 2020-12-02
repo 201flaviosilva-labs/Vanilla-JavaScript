@@ -61,6 +61,7 @@ i {
 
 header {
   grid-area: "Header";
+  min-height: 40px;
   padding: 0 10px;
   display: flex;
   align-items: center;
@@ -71,6 +72,16 @@ header {
 header h1 {
   font-size: 30px;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 800px) {
+  header {
+    display: flex;
+    justify-content: center;
+  }
+  header h1 {
+    display: none;
+  }
 }
 
 header nav ul {
@@ -96,6 +107,13 @@ header nav ul li a:hover {
   color: white;
 }
 
+@media only screen and (max-width: 470px) {
+  header nav ul li a {
+    padding: 2px 4px;
+    font-size: 16px;
+  }
+}
+
 /* Others */
 
 main {
@@ -109,4 +127,8 @@ footer {
   font-size: 18px;
   font-weight: bold;
   background-color: gold;
+}
+
+footer p {
+  text-align: center;
 }

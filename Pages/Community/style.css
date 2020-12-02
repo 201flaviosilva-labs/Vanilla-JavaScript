@@ -1,14 +1,19 @@
 ul.Geral {
-  padding: 20px 0;
+  padding: 20px 10px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
+  gap: 10px;
+}
+
+@media only screen and (max-width: 650px) {
+  ul.Geral {
+    grid-template-columns: 1fr;
+  }
 }
 
 ul.Geral > li {
   border-radius: 2px;
-  background: gray;
+  background: rgba(128, 128, 128, 0.75);
   border: 1px solid black;
 }
 

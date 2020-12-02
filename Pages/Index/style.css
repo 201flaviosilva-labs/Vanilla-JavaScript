@@ -6,6 +6,12 @@ main {
   grid-row-gap: 10px;
 }
 
+@media only screen and (max-width: 600px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}
+
 main > * {
   display: flex;
   flex-direction: column;
@@ -28,6 +34,11 @@ main > *:nth-child(3) {
 
 main > *:nth-child(4) {
   box-shadow: -2px -2px gold;
+}
+
+main > * p,
+main > * h2 {
+  text-align: center;
 }
 
 main > * button {

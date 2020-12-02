@@ -13,6 +13,12 @@ html {
           grid-template-columns: repeat(3, 1fr);
           gap: 10px;
           padding: 10px;
+          @media only screen and (max-width: 950px) {
+            grid-template-columns: repeat(2, 1fr);
+          }
+          @media only screen and (max-width: 700px) {
+            grid-template-columns: 1fr;
+          }
           div {
             &.Powers {
               height: 150px;

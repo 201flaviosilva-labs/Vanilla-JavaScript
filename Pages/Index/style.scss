@@ -4,6 +4,9 @@ main {
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 10px;
   grid-row-gap: 10px;
+  @media only screen and (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
   & > * {
     display: flex;
     flex-direction: column;
@@ -21,6 +24,10 @@ main {
     }
     &:nth-child(4) {
       box-shadow: -2px -2px gold;
+    }
+    p,
+    h2 {
+      text-align: center;
     }
     button {
       width: 100px;
